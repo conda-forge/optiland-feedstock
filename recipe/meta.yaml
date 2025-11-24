@@ -1,5 +1,5 @@
 {% set name = "optiland" %}
-{% set version = "0.5.7" %}
+{% set version = "0.5.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/optiland-{{ version }}.tar.gz
-  sha256: d06ab7cadfb5f2e5a5bd7d6c4b76c8dcbd26db56dc3a9f65a7d3b7e9b41d96e7
+  sha256: c7c64cac3c41dac67bad760dd4cc2de6049a89f9a4bd3b1e25e33764ef199b84
 
 build:
   entry_points:
