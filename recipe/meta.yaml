@@ -30,10 +30,10 @@ requirements:
     - matplotlib-base
     - vtk
     - tabulate
-    - numba
+    - numba >=0.60.0
     - requests
     - seaborn
-    - typing-extensions >=4.13.2
+    - typing-extensions >=4.1.0
     - PySide6
     - qtconsole
 
