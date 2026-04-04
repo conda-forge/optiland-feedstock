@@ -1,5 +1,5 @@
 {% set name = "optiland" %}
-{% set version = "0.5.9" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/optiland-{{ version }}.tar.gz
-  sha256: d3c8d0a81c954d127c5fd0b0381df398f9a8f412040b62f94ec881adbe0de86c
+  sha256: 3fdbc3f0517d26d4072966dc393ba2c523117caee745a73b13f4c26b529a0e89
 
 build:
   entry_points:
@@ -30,10 +30,10 @@ requirements:
     - matplotlib-base
     - vtk
     - tabulate
-    - numba
+    - numba >=0.60.0
     - requests
     - seaborn
-    - typing-extensions >=4.13.2
+    - typing-extensions >=4.1.0
     - PySide6
     - qtconsole
 
