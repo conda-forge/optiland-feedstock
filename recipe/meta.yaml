@@ -1,13 +1,13 @@
 {% set name = "optiland" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/optiland-{{ version }}.tar.gz
-  sha256: 3509356f1e019ae1e5ae8c46659cb678e14b7534a9856c9e9c1c973561b5238f
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/optiland-{{ version }}.tar.gz
+  sha256: f1bbd0462c04edcaaf56a411667f49cb9f470c32845a000b3c7f81f8a7a93a07
 
 build:
   entry_points:
